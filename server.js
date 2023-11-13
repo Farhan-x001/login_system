@@ -175,10 +175,7 @@ app.get('/get-user/:email', async (req, res) => {
     }
   });
 
-  // Import necessary modules and set up your app
-
-// ... Your existing code ...
-
+  
 // Forgot Password Page
 app.get('/forgot-password', (req, res) => {
     res.sendFile(path.join(__dirname, 'views', 'forgot-password.html'));
@@ -218,6 +215,5 @@ app.get('/forgot-password', (req, res) => {
     }
   });
   
-  // ... The rest of your code ...
-  
+ 
     
